@@ -25,11 +25,16 @@ namespace GiaoDienKhachHang
             }
 
         }
-
+        //Sự kiện click nút thoát để ẩn đi form đăng kí tài khoản
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Hide();
  
+        }
+
+        private void frmTaoTaiKhoan_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

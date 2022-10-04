@@ -220,6 +220,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmTaoTaiKhoan";
             this.Text = "Tạo tài khoản";
+            this.Load += new System.EventHandler(this.frmTaoTaiKhoan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
